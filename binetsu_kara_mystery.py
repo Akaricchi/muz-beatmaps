@@ -15,7 +15,14 @@ def makemap():
 
             "Beatmap.Author"        : "Akari",
 
-            #"Beatmap.Variant"       : "Test", 
+            # dummy values for siftrain export
+            "siftrain.difficulty" : 4,
+            "siftrain.song_info.notes_speed" : 1.2,
+            "siftrain.rank_info.5.rank_max" : 10000,
+            "siftrain.rank_info.4.rank_max" : 20000,
+            "siftrain.rank_info.3.rank_max" : 25000,
+            "siftrain.rank_info.2.rank_max" : 27500,
+            "siftrain.rank_info.1.rank_max" : 0,
         })
 
     m.tactLength = 1395.25
